@@ -1,4 +1,4 @@
-.\" $File: libmagic.man,v 1.39 2015/10/07 02:36:50 christos Exp $
+.\" $File: libmagic.man,v 1.40 2016/03/31 17:51:12 christos Exp $
 .\"
 .\" Copyright (c) Christos Zoulas 2003.
 .\" All Rights Reserved.

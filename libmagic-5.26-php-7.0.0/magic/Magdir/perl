@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# $File: perl,v 1.23 2015/02/14 17:53:29 christos Exp $
+# $File: perl,v 1.24 2015/03/27 17:58:58 christos Exp $
 # perl:  file(1) magic for Larry Wall's perl language.
 #
 # The `eval' lines recognizes an outrageously clever hack.

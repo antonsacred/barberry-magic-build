@@ -35,7 +35,7 @@
 #include "file.h"
 
 #ifndef lint
-FILE_RCSID("@(#)$File: der.c,v 1.3 2016/03/21 17:41:14 christos Exp $")
+FILE_RCSID("@(#)$File: der.c,v 1.4 2016/03/21 23:04:40 christos Exp $")
 #endif
 #endif
 

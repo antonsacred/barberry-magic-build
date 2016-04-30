@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: vorbis,v 1.21 2015/01/06 01:58:09 christos Exp $
+# $File: vorbis,v 1.22 2015/03/28 15:14:55 christos Exp $
 # vorbis:  file(1) magic for Ogg/Vorbis files
 #
 # From Felix von Leitner <leitner@fefe.de>

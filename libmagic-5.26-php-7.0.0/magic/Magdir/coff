@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File:$
+# $File: coff,v 1.1 2015/09/30 20:32:35 christos Exp $
 # coff: file(1) magic for Common Object Files not specific to known cpu types or manufactures
 #
 # COFF

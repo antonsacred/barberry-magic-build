@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# $File: filesystems,v 1.112 2016/01/11 21:16:37 christos Exp $
+# $File: filesystems,v 1.113 2016/02/14 14:38:24 christos Exp $
 # filesystems:  file(1) magic for different filesystems
 #
 0	name	partid  

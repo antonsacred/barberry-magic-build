@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: pgp,v 1.10 2014/10/14 16:50:37 christos Exp $
+# $File: pgp,v 1.11 2014/11/11 21:32:38 christos Exp $
 # pgp:  file(1) magic for Pretty Good Privacy
 # see http://lists.gnupg.org/pipermail/gnupg-devel/1999-September/016052.html
 #

@@ -1,6 +1,6 @@
 
 #-----------------------------------------------------------------------------
-# $File: misctools,v 1.15 2015/04/15 18:29:30 christos Exp $
+# $File: misctools,v 1.16 2016/02/14 15:46:52 christos Exp $
 # misctools:  file(1) magic for miscellaneous UNIX tools.
 #
 0	search/1	%%!!			X-Post-It-Note text

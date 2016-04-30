@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# $File: varied.script,v 1.10 2014/03/01 22:32:39 christos Exp $
+# $File: varied.script,v 1.11 2015/03/27 17:59:39 christos Exp $
 # varied.script:  file(1) magic for various interpreter scripts
 
 0	string/t		#!\ /			a
