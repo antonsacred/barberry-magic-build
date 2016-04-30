@@ -23,3 +23,28 @@
 # DocType contents:
 >>&1            string          webm    WebM
 !:mime  video/webm
+
+# PHP scripts
+# Ulf Harnhammar <ulfh@update.uu.se>
+0	search/1/c	=<?php			PHP script text
+!:strength + 10
+!:mime	text/x-php
+0	search/1	=<?\n			PHP script text
+!:mime	text/x-php
+0	search/1	=<?\r			PHP script text
+!:mime	text/x-php
+0	search/1/w	#!\ /usr/local/bin/php	PHP script text executable
+!:strength + 10
+!:mime	text/x-php
+0	search/1/w	#!\ /usr/bin/php	PHP script text executable
+!:strength + 10
+!:mime	text/x-php
+# Smarty compiled template, http://www.smarty.net/
+# Elan Ruusamae <glen@delfi.ee>
+0	string	=<?php\ /*\ Smarty\ version	Smarty compiled template
+>24	regex	[0-9.]+				\b, version %s
+!:mime	text/x-php
+
+# Url in a file
+0 regex https?://
+!:mime	text/url
