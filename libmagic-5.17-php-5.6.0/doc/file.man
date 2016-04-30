@@ -1,4 +1,4 @@
-.\" $File: file.man,v 1.104 2014/01/08 11:27:53 kim Exp $
+.\" $File: file.man,v 1.105 2014/01/31 01:57:00 christos Exp $
 .Dd January 30, 2014
 .Dt FILE __CSECTION__
 .Os

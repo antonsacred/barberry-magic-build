@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: commands,v 1.45 2013/02/06 14:18:52 christos Exp $
+# $File: commands,v 1.46 2013/03/25 14:06:55 christos Exp $
 # commands:  file(1) magic for various shells and interpreters
 #
 #0	string/w	:			shell archive or script for antique kernel text

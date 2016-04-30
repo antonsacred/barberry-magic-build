@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: elf,v 1.63 2013/06/03 18:56:50 christos Exp $
+# $File: elf,v 1.64 2013/08/04 09:31:47 christos Exp $
 # elf:  file(1) magic for ELF executables
 #
 # We have to check the byte order flag to see what byte order all the

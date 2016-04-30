@@ -35,7 +35,7 @@
 #include "file.h"
 
 #ifndef	lint
-FILE_RCSID("@(#)$File: encoding.c,v 1.8 2013/09/17 15:51:22 christos Exp $")
+FILE_RCSID("@(#)$File: encoding.c,v 1.9 2013/11/19 20:45:50 christos Exp $")
 #endif	/* lint */
 
 #include "magic.h"
