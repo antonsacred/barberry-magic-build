@@ -21,6 +21,7 @@ exhibits=(
     test.ogv
     test.webm
     xiag.url
+    536208.gif
 )
 
 versions=(
