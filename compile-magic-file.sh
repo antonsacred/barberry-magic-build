@@ -15,18 +15,24 @@ DIR="$( cd "$1" && pwd )"
 
 cd ${DIR};
 
-${DIR}/../make.sh && (
+(test -f ./bin/file || (
+
+    autoreconf -f -i &&
+    ./configure --disable-silent-rules --prefix=${DIR} &&
+    make -j4 &&
+    make install
+
+) > /dev/null) && (
 
     TARGET_FILE=${DIR}"/../build/magic.mime"
 
-    >${TARGET_FILE}
+    cat ${DIR}/../patch.mime.txt > ${TARGET_FILE}
+
     find ${DIR}/magic/Magdir/ -type f | while read F
     do
         cat $F >> ${TARGET_FILE}
         echo -e "\n" >> ${TARGET_FILE}
     done
-
-    cat ${DIR}/../patch.mime.txt >> ${TARGET_FILE}
 
     cd "$(dirname "${TARGET_FILE}")"
     ${DIR}/bin/file -C -m ${TARGET_FILE}
