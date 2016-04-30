@@ -8,7 +8,7 @@ then
 
 fi
 
-echo "Creating scripts/magic.mime.mgc file for content type euristic recognition..."
+echo "Creating magic.mime.mgc file for content type euristic recognition..."
 
 
 DIR="$( cd "$1" && pwd )"
@@ -35,8 +35,9 @@ cd ${DIR};
     done
 
     cd "$(dirname "${TARGET_FILE}")"
-    ${DIR}/bin/file -C -m ${TARGET_FILE}
+    rm ${DIR}/../build/magic.mime.mgc > /dev/null 2>&1
+    ${DIR}/bin/file -C -m ${TARGET_FILE} && echo "DONE"
 
-    echo "DONE: ${DIR}/../build/magic.mime.mgc"
+    ls -al ${DIR}/../build/magic.mime.mgc
 
 )
