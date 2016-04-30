@@ -24,9 +24,10 @@ cd ${DIR};
 
 ) > /dev/null) && (
 
-    TARGET_FILE=${DIR}"/../build/magic.mime"
+    TARGET_FILE=${DIR}"/build/magic.mime"
+    mkdir $(dirname ${TARGET_FILE}) > /dev/null 2>&1
 
-    cat ${DIR}/../patch.mime.txt > ${TARGET_FILE}
+    >${TARGET_FILE}
 
     find ${DIR}/magic/Magdir/ -type f | while read F
     do
@@ -35,9 +36,9 @@ cd ${DIR};
     done
 
     cd "$(dirname "${TARGET_FILE}")"
-    rm ${DIR}/../build/magic.mime.mgc > /dev/null 2>&1
+    rm ${DIR}/build/magic.mime.mgc > /dev/null 2>&1
     ${DIR}/bin/file -C -m ${TARGET_FILE} && echo "DONE"
 
-    ls -al ${DIR}/../build/magic.mime.mgc
+    ls -al ${DIR}/build/magic.mime.mgc
 
 )
