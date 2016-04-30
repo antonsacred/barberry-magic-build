@@ -22,6 +22,7 @@ exhibits=(
     test.webm
     xiag.url
     536208.gif
+    107650.png
 )
 
 versions=(
