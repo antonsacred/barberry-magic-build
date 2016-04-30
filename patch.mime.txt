@@ -46,5 +46,5 @@
 !:mime	text/x-php
 
 # Url in a file
-0 regex https?://
+0 regex https?://                Url in a file
 !:mime	text/url
