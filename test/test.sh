@@ -24,7 +24,6 @@ exhibits=(
 )
 
 versions=(
-    libmagic-5.0-php-5.3.0
     libmagic-5.11-php-5.3.11
     libmagic-5.14-php-5.4.15
     libmagic-5.17-php-5.6.0
