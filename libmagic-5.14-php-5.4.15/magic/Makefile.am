@@ -1,5 +1,5 @@
 #
-# $File: Makefile.am,v 1.88 2013/01/16 13:53:10 christos Exp $
+# $File: Makefile.am,v 1.89 2013/02/18 18:31:09 christos Exp $
 #
 MAGIC_FRAGMENT_BASE = Magdir
 MAGIC_DIR = $(top_srcdir)/magic

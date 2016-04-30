@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: sgi,v 1.18 2010/11/25 15:00:12 christos Exp $
+# $File: sgi,v 1.19 2013/01/12 03:09:51 christos Exp $
 # sgi:  file(1) magic for Silicon Graphics operating systems and applications
 #
 # Executable images are handled either in aout (for old-style a.out

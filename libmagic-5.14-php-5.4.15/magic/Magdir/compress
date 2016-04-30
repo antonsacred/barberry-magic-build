@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# $File: compress,v 1.48 2011/12/07 18:39:43 christos Exp $
+# $File: compress,v 1.49 2011/12/07 22:04:27 christos Exp $
 # compress:  file(1) magic for pure-compression formats (no archives)
 #
 # compress, gzip, pack, compact, huf, squeeze, crunch, freeze, yabba, etc.
