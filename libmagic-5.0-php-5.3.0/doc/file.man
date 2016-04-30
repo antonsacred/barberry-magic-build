@@ -1,4 +1,4 @@
-.\" $File: file.man,v 1.78 2008/11/06 21:17:45 rrt Exp $
+.\" $File: file.man,v 1.79 2008/11/06 22:49:08 rrt Exp $
 .Dd October 9, 2008
 .Dt FILE __CSECTION__
 .Os
