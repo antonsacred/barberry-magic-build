@@ -15,7 +15,7 @@ done
 cat ${DIR}/patch.mime.txt >> $TARGET_FILE
 
 cd "$(dirname "$TARGET_FILE")"
-file -C -m $TARGET_FILE
+${DIR}/bin/file -C -m $TARGET_FILE
 #rm $TARGET_FILE
 
-echo "DONE"
+echo "DONE: ${DIR}/build/magic.mime.mgc"
