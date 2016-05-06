@@ -23,6 +23,8 @@ exhibits=(
     xiag.url
     536208.gif
     107650.png
+    9011.docx
+    chips.doc
 )
 
 versions=(
@@ -42,7 +44,7 @@ do
     do
 
         ${DIR}/../${version}/bin/file --mime-type -m ${DIR}/../${version}/build/magic.mime.mgc \
-            ${DIR}/data/${fileName} | grep "application/octet-stream"
+            ${DIR}/data/${fileName}
 
     done
 
