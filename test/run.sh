@@ -44,7 +44,7 @@ do
     do
 
         ${DIR}/../${version}/bin/file --mime-type -m ${DIR}/../${version}/build/magic.mime.mgc \
-            ${DIR}/data/${fileName}
+            ${DIR}/data/${fileName} | grep application/octet-stream
 
     done
 

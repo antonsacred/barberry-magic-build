@@ -4,6 +4,11 @@
 >16     search Microsoft\ Excel	        Excel
 !:mime application/vnd.ms-excel
 
+>546	string	bjbj			Microsoft Word Document
+!:mime	application/msword
+>546	string	jbjb			Microsoft Word Document
+!:mime	application/msword
+
 >0x820   string  Microsoft\ Word         Word
 !:mime application/vnd.ms-word
 
