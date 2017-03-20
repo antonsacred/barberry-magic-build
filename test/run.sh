@@ -9,6 +9,7 @@ exhibits=(
     document1.doc
     document1.odt
     document1.ott
+    favicon.ico
     m1.mp3
     m2.mp3
     m2_5.mp3
