@@ -26,6 +26,7 @@ exhibits=(
     107650.png
     9011.docx
     chips.doc
+    styles.css
 )
 
 versions=(

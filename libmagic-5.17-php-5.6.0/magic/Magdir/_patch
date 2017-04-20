@@ -53,3 +53,20 @@
 # Url in a file
 0 regex https?://                Url in a file
 !:mime	text/url
+
+#CSS
+0        search/4096    ={
+>&0      search/512     =transition-    CSS3
+!:mime   text/css
+
+0        search/4096    ={
+>&0      search/512     =background:    CSS
+!:mime   text/css
+
+0        search/4096    ={
+>&0      search/512     =color:         CSS
+!:mime   text/css
+
+0        search/4096    ={
+>&0      search/512     =padding-bottom:     CSS
+!:mime   text/css
