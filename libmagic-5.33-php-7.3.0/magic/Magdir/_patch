@@ -1,0 +1,72 @@
+## MS Office
+0	string	\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1\0\0\0\0\0\0\0\0	MS Office
+
+>16     search Microsoft\ Excel	        Excel
+!:mime application/vnd.ms-excel
+
+>546	string	bjbj			Microsoft Word Document
+!:mime	application/msword
+>546	string	jbjb			Microsoft Word Document
+!:mime	application/msword
+
+>0x820   string  Microsoft\ Word         Word
+!:mime application/vnd.ms-word
+
+## Mkv video format
+0               belong          0x1a45dfa3
+# DocType id:
+>0              search/4096     \x42\x82
+# DocType contents:
+>>&1            string          matroska        Matroska data
+!:mime  video/x-matroska
+
+## Webm video format
+# EBML id:
+0               belong          0x1a45dfa3
+# DocType id:
+>0              search/4096     \x42\x82
+# DocType contents:
+>>&1            string          webm    WebM
+!:mime  video/webm
+
+# PHP scripts
+# Ulf Harnhammar <ulfh@update.uu.se>
+0	search/1/c	=<?php			PHP script text
+!:strength + 10
+!:mime	text/x-php
+0	search/1	=<?\n			PHP script text
+!:mime	text/x-php
+0	search/1	=<?\r			PHP script text
+!:mime	text/x-php
+0	search/1/w	#!\ /usr/local/bin/php	PHP script text executable
+!:strength + 10
+!:mime	text/x-php
+0	search/1/w	#!\ /usr/bin/php	PHP script text executable
+!:strength + 10
+!:mime	text/x-php
+# Smarty compiled template, http://www.smarty.net/
+# Elan Ruusamae <glen@delfi.ee>
+0	string	=<?php\ /*\ Smarty\ version	Smarty compiled template
+>24	regex	[0-9.]+				\b, version %s
+!:mime	text/x-php
+
+# Url in a file
+0 regex https?://                Url in a file
+!:mime	text/url
+
+#CSS
+0        search/4096    ={
+>&0      search/512     =transition-    CSS3
+!:mime   text/css
+
+0        search/4096    ={
+>&0      search/512     =background:    CSS
+!:mime   text/css
+
+0        search/4096    ={
+>&0      search/512     =color:         CSS
+!:mime   text/css
+
+0        search/4096    ={
+>&0      search/512     =padding-bottom:     CSS
+!:mime   text/css
