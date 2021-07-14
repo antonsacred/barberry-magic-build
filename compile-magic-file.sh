@@ -3,7 +3,7 @@
 if [ -z "$1" ]
 then
 
-    echo "Usage ./mime-compile.sh libmagic-{ver}";
+    echo "Usage ./compile-magic-file.sh libmagic-{ver}";
     exit 1;
 
 fi
