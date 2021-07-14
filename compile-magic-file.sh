@@ -18,7 +18,7 @@ cd ${DIR};
 (test -f ./bin/file || (
 
     autoreconf -f -i &&
-    ./configure --disable-silent-rules --prefix=${DIR} &&
+    ./configure --disable-silent-rules --enable-shared=no --enable-static=yes --prefix=${DIR} &&
     make -j4 &&
     make install
 
