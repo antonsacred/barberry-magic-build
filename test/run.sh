@@ -27,6 +27,7 @@ exhibits=(
     9011.docx
     chips.doc
     styles.css
+    excel97.xls
 )
 
 versions=(
