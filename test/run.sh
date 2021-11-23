@@ -48,8 +48,9 @@ do
     for fileName in "${exhibits[@]}"
     do
 
-        ${DIR}/../${version}/bin/file --mime-type -m ${DIR}/../${version}/build/magic.mime.mgc \
-            ${DIR}/data/${fileName} | grep application/octet-stream
+        cat ${DIR}/data/${fileName} |\
+          ${DIR}/../${version}/bin/file --mime-type -m ${DIR}/../${version}/build/magic.mime.mgc - | \
+          grep application/octet-stream
 
     done
 
