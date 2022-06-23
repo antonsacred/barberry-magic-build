@@ -38,6 +38,8 @@ versions=(
     libmagic-5.31-php-7.2.0
     libmagic-5.33-php-7.3.0
     libmagic-5.37-php-7.4.0
+    libmagic-5.39-php-8.0.0
+    libmagic-5.40-php-8.1.0
 )
 
 for version in "${versions[@]}"
