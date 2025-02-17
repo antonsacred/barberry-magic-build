@@ -1,0 +1,10 @@
+prefix=/Users/tonyxiag/HogashopProjects/barberry-magic-build/libmagic-5.43-php-8.3.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmagic
+Description: Magic number recognition library
+Version: 5.43
+Libs: -L${libdir} -lmagic
+Libs.private: -llzma -lbz2 -lz 
